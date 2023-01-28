@@ -1,0 +1,55 @@
+#loginbtn {
+    border-radius: 7px;
+}
+
+#navbarCollapse{
+    /* justify-content: space-between; */
+}
+.nav-item{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.nav-text {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-prop {
+    box-shadow: 0px 2px 5px #777;
+}
+
+.Back {
+  min-height: 80vh;
+  background:url(./photo-1674584546139-e657d8ba2390.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Blur {
+  width: 100%;
+  height: 80vh;
+  backdrop-filter: blur(50px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  border-radius: 8px;
+}
+.button:hover {
+    background-color: #fa13139a;
+    transition: 0.25s;
+}
